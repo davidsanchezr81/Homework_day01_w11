@@ -24,8 +24,8 @@ console.log(result());
 
 /////////////////////////////////////
 
-// 3) sin myAnimals is constant, it cannot be modified inside the function at line 29,
-// and also in cannot be increased in the for loop in line 32
+// 3) Since myAnimals is constant, it cannot be modified inside the function at line 29,
+// and also in cannot be increased in the for loop in line 36
 const myAnimals = ['Chickens', 'Cats', 'Rabbits'];
 // var myAnimals = ['Chickens', 'Cats', 'Rabbits'];
 
@@ -44,8 +44,8 @@ listAnimals();
 
 ////////////////////////////////
 
- // 4) suspectThree is declared twice, one outside (line 44) and one inside the function(line 48).
- // a) The first (Keith) will be printed by line 53 and the second (Harvey) will be printed by line 49 //////////
+ // 4) suspectThree is declared twice, one outside (line 52) and one inside the function(line 56).
+ // a) The first (Keith) will be printed by line 57 and the second (Harvey) will be printed by line 61 //////////
 
 const suspectOne = 'Jay';
 const suspectTwo = 'Val';
@@ -62,7 +62,7 @@ console.log(`Suspect three is: ${ suspectThree }`);
 
 ///////////////////////////////////////////
 
-// 5) The error is on line 65, DONT KNOW WHY ///////////////////////
+// 5) The error is on line 74, DONT KNOW WHY ///////////////////////
 
 const detective = {
   name: 'Ace Ventura',
@@ -84,10 +84,10 @@ console.log(detectiveInfo());
 
 ////////////////////////////////////////////
 
-// 6) At first line 89 provide an error since the instead of usiing '===' it has been used '='.
+// 6) At first line 98 provide an error since the instead of usiing '===' it has been used '='.
 //  Secondly, 'murderer' cannot be modified form 'rick' because is a constant, therefore
 // outerFunction is not working.
-// The final print will be executed by line 99 /////////////////
+// The final print will be executed by line 105 /////////////////
 
 const murderer = 'rick';
 
